@@ -1,3 +1,10 @@
++--------
+ 	 2	
++--------
+ 	 3	
++This version of the PHP SDK asgahas been deparecated.
+2	 4	
+ 
 We have created a new repository for this project: https://github.com/facebook/facebook-php-sdk.  Please update anything you have pointing at this repostory to this location before April 1, 2012.
 
 Facebook PHP SDK (v.3.1.1)
@@ -82,4 +89,11 @@ Report Issues/Bugs
 [Bugs](https://developers.facebook.com/bugs)
 
 [Questions](http://facebook.stackoverflow.com)
-
+	
++We have created a new repository for this project: https://github.com/facebook/facebook-php-sdk.
+85	 6	
+ 
+ 	 7	
++To see the repository in its previously published state, please see the [deprecated](https://github.com/facebook/php-sdk/tree/deprecated) branch.
+ 	 8	
++--------

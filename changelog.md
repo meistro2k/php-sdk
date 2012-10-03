@@ -1,3 +1,40 @@
+changelog.md View file @ 6c82b3f
+...	 ...	
+@@ -1,28 +0,0 @@
+1	  	
+-Facebook PHP SDK (v.3.0.0)
+2	  	
+-==========================
+3	  	
+-
+4	  	
+-The new PHP SDK (v3.0.0) is a major upgrade to the older one (v2.2.x):
+5	  	
+-
+6	  	
+-- Uses OAuth authentication flows instead of our legacy authentication flow
+7	  	
+-- Consists of two classes. The first (class BaseFacebook) maintains the core of the upgrade, and the second one (class Facebook) is a small subclass that uses PHP sessions to store the user id and access token.
+8	  	
+-
+9	  	
+-If you’re currently using the PHP SDK (v2.2.x) for authentication, you will recall that the login code looked like this:
+10	  	
+-
+11	  	
+-     $facebook = new Facebook(…);
+12	  	
+-     $session = $facebook->getSession();
+13	  	
+-     if ($session) {
+14	  	
+-       // proceed knowing you have a valid user session
+15	  	
+-     } else {
+16	  	
+-       // proceed knowing you require user login and/or authentication
+17	  	
+-     }
 Facebook PHP SDK (v.3.0.0)
 ==========================
 
